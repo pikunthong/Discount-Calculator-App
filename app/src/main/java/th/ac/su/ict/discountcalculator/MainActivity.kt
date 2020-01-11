@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             var edtPercent2:Double = edtPercent.text.toString().toDouble()
 
             var total= edtOriginal2-((edtOriginal2/100 ) * edtPercent2)
-            
+
 
             if (cbVat.isChecked) {
                 total += (total/100)*7
